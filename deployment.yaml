@@ -17,7 +17,7 @@ spec:
   spec:
    containers:
    - name: myapp
-     image: goplarao/samplewebapp:10
+     image: goplarao/samplewebapp:$BUILD_NUMBER
      ports:
      - containerPort: 8080
 
